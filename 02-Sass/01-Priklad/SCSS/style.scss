@@ -1,0 +1,29 @@
+$primary-color: #2db8ac;
+
+$font-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-special: Georgia, serif;
+
+$spacer: 30px;
+
+body {
+    font-family: $font-base;
+}
+
+h1 {
+    color: $primary_color;
+    font-family: $font-special;
+    margin: 0;
+}
+
+header {
+    border: 5px solid $primary_color;
+    padding: $spacer;
+    margin-bottom: $spacer;
+}
+
+button {
+    background-color: $primary_color;
+    color: white;
+    font-family: $font-special;
+    padding: $spacer / 2;
+}
